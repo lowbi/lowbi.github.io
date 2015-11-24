@@ -163,7 +163,6 @@ header .navbar-brand {
 
 .feed-post .project:hover {
   background: #ddd;
-  cursor: pointer;
   color: #333; }
 
 .feed-post .project .title {
