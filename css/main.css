@@ -212,7 +212,11 @@ header .navbar-brand {
 .content-project p {
   font-size: 1.784em;
   line-height: 1.5375em;
-  color: #fff; }
+  color: #333;
+}
+.content-project h3 {
+  color: #333;
+}
 
 .related-project {
   background: #ddd;
