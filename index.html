@@ -1,172 +1,118 @@
 
 <!DOCTYPE html>
 <html>
-
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lowbi</title>
-  <meta name="description" content="">
+    <title>Lowbi</title>
+    <meta name="description" content="">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
 
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:900' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://lowbi.co">
-</head>
-
-
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://lowbi.co">
+  </head>
   <body>
-
     <header>
-  <div class="container">
-    <div class="row">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">Lowbi</a>
+      <div class="container">
+        <div class="row">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Lowbi</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
-
-    
+    </header>
     <main class="container" style="margin-bottom:50px">
-	  <div class="row">
-	    <div class="col-md-12 intro">
-	      <p>Lowbi is a Barcelona-based design studio founded in 2014 by Didac Pérez. A passionate Digital Craftsman & Visual Designer with 8 years of experience. The Studio is focused on Branding and UI Design for companies, organizations and people like you.</p>
-	    </div>
-	  </div>
-	</main>
+  	  <div class="row">
+  	    <div class="col-md-12 intro">
+  	      <p>Lowbi is a Barcelona-based design studio founded in 2014 by Didac Pérez. A passionate Digital Craftsman & Visual Designer with 8 years of experience. The Studio is focused on Branding and UI Design for companies, organizations and people like you.</p>
+  	    </div>
+  	  </div>
+  	</main>
+    <section class="feed-post">
+      <div class="container">
+        <h3>Usual Projects:</h3>
+      </div>
+      <div class="project">
+        <div class="container">
+          <div class="title"><a href="/work/cinebaix/"><span>Logo Design</span></a></div>
+          <div class="date">17%</div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container">
+          <div class="title"><span>User Interface Design</span></div>
+          <div class="date">28%</div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container">
+          <div class="title"><span>Web Development</span></div>
+          <div class="date">35%</div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container">
+          <div class="title"><span>Printed Matters</span></div>
+          <div class="date">12%</div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container">
+          <div class="title"><span>Social Media</span></div>
+          <div class="date">8%</div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
 
-<section class="feed-post">
-  <div class="container">
-    <h3>Current Projects:</h3>
-  </div>
-  
-  <div class="project">
-    <div class="container">
-      <div class="title"><a href="/work/cinebaix/"><span>Logo Design</span></a></div>
-      <div class="date">17%</div>
-    </div>
-  </div>
-  
-  <div class="project">
-    <div class="container">
-      <div class="title"><a href="/work/control-for-energy/"><span>User Interface Design</span></a></div>
-      <div class="date">28%</div>
-    </div>
-  </div>
-  
-  <div class="project">
-    <div class="container">
-      <div class="title"><a href="/work/habbage/"><span>Web Development</span></a></div>
-      <div class="date">35%</div>
-    </div>
-  </div>
-  
-  <div class="project">
-    <div class="container">
-      <div class="title"><a href="/work/teatre/"><span>Printed Matters</span></a></div>
-      <div class="date">12%</div>
-    </div>
-  </div>
-  
-  <div class="project">
-    <div class="container">
-      <div class="title"><a href="/work/mcgrawhill/"><span>Social Media</span></a></div>
-      <div class="date">8%</div>
-    </div>
-  </div>
-  
-    
-  
-</section>
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
 
-    
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
 
-    <footer>
-  <div class="container">
-    <p class="text-muted">Didac Pérez - Footer terms and conditions... Subscribe <a href="/feed.xml">via RSS</a> or follow us on twitter account 
-      
-      <a href="https://twitter.com/didacperez"><span class="username">twitter</span></a>
-      
-      
-      <a href="https://behance.net/didacperez"><span class="username">behance</span></a>
-      
-      
-      <a href="https://dribbble.com/didacperez"><span class="username">dribbble</span></a>
-      
-      
-      <a href="https://github.com/didacperez"><span class="username">github</span></a>
-      
-      
-      <a href="https://ca.linkedin.com/in/didacperez"><span class="username">linkedin</span></a>
-      
-      <!-- <a href="mailto:hello@didacperez.com">hello@didacperez.com</a>
-      Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
- -->
-    </p>
-  </div>
-</footer>
-
-  
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-  <script>
-  // Hide Header on on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 5;
-  var navbarHeight = $('header').outerHeight();
-
-  $(window).scroll(function(event){
-      didScroll = true;
-  });
-
-  setInterval(function() {
-      if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-      }
-  }, 250);
-
-  function hasScrolled() {
-      var st = $(this).scrollTop();
-      
-      // Make sure they scroll more than delta
-      if(Math.abs(lastScrollTop - st) <= delta)
-          return;
-      
-      // If they scrolled down and are past the navbar, add class .nav-up.
-      // This is necessary so you never see what is "behind" the navbar.
-      if (st > lastScrollTop && st > navbarHeight){
-          // Scroll Down
-          $('header').removeClass('nav-down').addClass('nav-up');
-      } else {
-          // Scroll Up
-          if(st + $(window).height() < $(document).height()) {
-              $('header').removeClass('nav-up').addClass('nav-down');
-          }
-      }
-      
-      lastScrollTop = st;
-  }
-  </script>
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+        
+        // Make sure they scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
+        
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $(document).height()) {
+                $('header').removeClass('nav-up').addClass('nav-down');
+            }
+        }
+        
+        lastScrollTop = st;
+    }
+    </script>
   </body>
-
 </html>
