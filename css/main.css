@@ -153,7 +153,8 @@ header .navbar-brand {
 .feed-post h3 {
   font-size: 2.784em;
   line-height: 2.43em;
-  color: #fff; }
+  color: #fff;
+}
 
 .feed-post .project {
   display: block;
@@ -245,26 +246,31 @@ header .navbar-brand {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  max-height: 160px; }
+  max-height: 160px;
+}
 
 .related-project .project .thumbnail-project img {
-  width: 100%; }
+  width: 100%;
+}
 
 .related-project .project .title {
   background: #fff;
   padding: 15px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  text-align: center; }
+  text-align: center;
+}
 
 .related-project .project .title a {
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
   color: #333;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .related-project .project .title a span {
-  border-bottom: 1px solid #FFC75A; }
+  border-bottom: 1px solid #FFC75A;
+}
 
 article {
   -webkit-animation: fadein 1.5s;
@@ -316,7 +322,15 @@ article {
   .content-project p {
   font-size: 1em;
   }
+  .feed-post h3 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  }
+  .feed-post .project {
+  display: block;
+  font-size: 1em;
+  line-height: 1.3em;
+  padding: 20px 0; }
+
 }
-
-
 
