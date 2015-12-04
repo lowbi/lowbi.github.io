@@ -114,7 +114,8 @@ pre {
  */
 header {
   padding: 30px 0 30px 0;
-  color: #4f4f4f; }
+  color: #4f4f4f;
+}
 
 header .navbar-brand {
   font-weight: 900;
@@ -135,8 +136,8 @@ header .navbar-brand {
 /**
  * Intro
  */
- main.container {
-  60px 15px;
+ .main-padding {
+  margin-bottom:50px
  }
 .intro h1 {
   color: #4f4f4f; }
@@ -324,7 +325,13 @@ article {
  */
 
 @media screen and (max-device-width: 480px) {
-  .intro p {
+  header {
+  padding: 15px 0;
+  }
+  .main-padding {
+  margin-bottom:20px
+  }
+ .intro p {
   font-size: 1.3em;
   line-height: 1.5em;
   }
