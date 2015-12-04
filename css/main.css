@@ -135,6 +135,9 @@ header .navbar-brand {
 /**
  * Intro
  */
+ main.container {
+  60px 15px;
+ }
 .intro h1 {
   color: #4f4f4f; }
 
@@ -142,7 +145,8 @@ header .navbar-brand {
   color: #c2c2c2;
   font-size: 1.784em;
   line-height: 1.5375em;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 .feed-post {
   background: #FFC75A;
@@ -169,7 +173,8 @@ header .navbar-brand {
 .feed-post .project .title {
   display: inline-block;
   margin-right: 90px;
-  color: rgba(0, 0, 0, 0.25); }
+  color: rgba(0, 0, 0, 0.25);
+}
 
 .feed-post .project .title a {
   color: rgba(0, 0, 0, 0.25);
@@ -319,18 +324,25 @@ article {
  */
 
 @media screen and (max-device-width: 480px) {
+  .intro p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  }
   .content-project p {
   font-size: 1em;
   }
+
   .feed-post h3 {
   font-size: 1.3em;
   line-height: 1.5em;
   }
   .feed-post .project {
-  display: block;
   font-size: 1em;
   line-height: 1.3em;
-  padding: 20px 0; }
+  }
+  .feed-post .project .title {
+  margin-right: 30px;
+  }
 
 }
 
