@@ -329,7 +329,8 @@ article {
   padding: 15px 0;
   }
   .main-padding {
-  margin-bottom:20px
+  margin-bottom:20px!important;
+  padding-top: 20px!important;
   }
  .intro p {
   font-size: 1.3em;
