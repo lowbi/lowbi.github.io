@@ -249,7 +249,8 @@ header .navbar-brand {
   margin-bottom: 40px;
 }
 .content-project .image img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
 }
 
 .related-project {
