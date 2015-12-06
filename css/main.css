@@ -224,10 +224,12 @@ header .navbar-brand {
   font-size: 2.784em;
   color: #222;
   text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .content-project h1 span {
-  border-bottom: 3px solid #FFC75A; }
+  border-bottom: 3px solid #FFC75A;
+}
 
 .content-project .cover-project img {
   width: 100%;
@@ -245,6 +247,9 @@ header .navbar-brand {
   font-style: normal;
   font-size: 2.3em;
   margin-bottom: 40px;
+}
+.content-project .image img {
+  width: 100%;
 }
 
 .related-project {
