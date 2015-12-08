@@ -29,13 +29,13 @@
       </div>
     </header>
     
-    <section class="content-project">
+    <section class="content-project" style="background:#F0F3F7">
       <div class="container">
-        <h1><span>SACE</span></h1>
+        <h1><span style="border-bottom: 3px solid #00C2E7">SACE</span></h1>
         <div style="margin-bottom:30px;">
           <div class="row">
             <div class="col-md-12 text-center">
-              <p>Work in progress, coming soon...</p>
+              <p>Propera actualització <span id="clock" style="color: #00C2E7"></span>.</p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
             <div class="col-md-12 text-center">
               <h3>Typography</h3>
               <div class="image">
-                <img src="/img/sace/typos-svg.svg">
+                <img src="/img/sace/typography-svg.svg">
               </div>
             </div>
         </div>
@@ -150,6 +150,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Epliclock -->
+    <script src="/js/jquery.dateformat.min.js"></script>
+    <script src="/js/jquery.epiclock.min.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $('#clock').epiclock({
+            mode: 'countdown', 
+            target: '2015 09 31 09:29:00'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+  </script>
     <script>
     // Hide Header on on scroll down
     var didScroll;
