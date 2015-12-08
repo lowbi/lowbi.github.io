@@ -35,7 +35,7 @@
         <div style="margin-bottom:30px;">
           <div class="row">
             <div class="col-md-12 text-center">
-              <p>Propera actualització <span id="clock" style="color: #00C2E7"></span>.</p>
+              <p>Propera actualització <span id="clock" style="color: #00C2E7;margin-left:10px;"></span>.</p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@
     $(function () {
         $('#clock').epiclock({
             mode: 'countdown', 
-            target: '2015/12/12 09:29 pm'
+            target: '2015/12/09 09:29 pm'
         }).bind('timer', function(){
             $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
         });
