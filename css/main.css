@@ -230,6 +230,14 @@ header .navbar-brand {
 .content-project h1 span {
   border-bottom: 3px solid #FFC75A;
 }
+span.epiclock {
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+span.epiclock.epiclock-spacer {
+  margin-right: 10px;
+}
 
 .content-project .cover-project img {
   width: 100%;
