@@ -157,12 +157,12 @@
     $(function () {
         $('#clock').epiclock({
             mode: 'countdown', 
-            target: '2015 12 12 09:29:59'
+            target: '2015/12/12 09:29 pm'
         }).bind('timer', function(){
             $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
         });
     });
-  </script>
+    </script>
     <script>
     // Hide Header on on scroll down
     var didScroll;
