@@ -34,9 +34,6 @@
         <h1><span style="border-bottom: 3px solid #00C2E7">SACE</span></h1>
         <div style="margin-bottom:30px;">
           <div class="row">
-            <div class="col-md-12 text-center">
-              <p>Propera actualització <span id="clock" style="color: #00C2E7;margin-left:10px;"></span>.</p>
-            </div>
           </div>
         </div>
       </div>
@@ -140,6 +137,12 @@
             <div class="col-md-12 text-center">
               <h3>Website Design</h3>
               <p>Image....</p>
+              <div class="col-md-12">
+              <p>Accés a Serveis d'Acompanyament d'Educació <span id="educacio" style="color: #00C2E7;margin-left:10px;"></span>.</p>
+              <p>Accés a Serveis d'Acompanyament de Comunicació <span id="comunicacio" style="color: #00C2E7;margin-left:10px;"></span>.</p>
+              <p>Accés a Serveis d'Acompanyament de Gestió <span id="gestio" style="color: #00C2E7;margin-left:10px;"></span>.</p>
+              <p>Accés a Serveis d'Acompanyament d'Innovació <span id="innovacio" style="color: #00C2E7;margin-left:10px;"></span>.</p>
+              </div>
             </div>
         </div>
       </div>
@@ -155,7 +158,63 @@
     <script src="/js/jquery.epiclock.min.js"></script>
     <script type="text/javascript">
     $(function () {
-        $('#clock').epiclock({
+        $('#home').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/13 5:14 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#sace').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/11 8:40 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#serveis').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/11 5:14 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#educacio').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/10 8:40 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#comunicacio').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/10 8:40 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#gestio').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/10 8:40 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#innovacio').epiclock({
+            mode: 'countdown', 
+            target: '2015/12/10 8:40 pm'
+        }).bind('timer', function(){
+            $('<span>This timer has expired!</span>').css({color: '#F60000', display: 'none', paddingLeft: 10}).appendTo(this).fadeIn(250);
+        });
+    });
+    $(function () {
+        $('#contacte').epiclock({
             mode: 'countdown', 
             target: '2015/12/10 01:55 pm'
         }).bind('timer', function(){
