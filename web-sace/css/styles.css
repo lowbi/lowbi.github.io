@@ -472,6 +472,18 @@ display: inline-block
   min-height: 190px;
 }
 
+/*------- Organitzem -------*/
+.formulari-contacte {
+  width: 700px;
+  margin:0 auto;
+}
+.formulari-contacte .footer-formulari {
+    text-align: right;
+}
+.formulari-contacte .footer-formulari span {
+    margin-right:10px;
+    color:#2CBFEB;
+}
 
 
 .footer {
@@ -735,6 +747,29 @@ display: inline-block
     display: block;
     width: 100%;
     min-height: auto;
+  }
+  .formulari-contacte {
+  width: 100%;
+  margin:0 auto;
+  }
+  .form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 13px;
+  }
+  .formulari-contacte .footer-formulari {
+    text-align: center;
+  }
+  .formulari-contacte .footer-formulari span {
+    display: block;
+    font-size: 13px;
+  }
+  .formulari-contacte .footer-formulari .btn-sace {
+    width: 90%;
+    padding: 12px 20px;
+    font-size: 16px;
+    float: none!important;
   }
 }
 
