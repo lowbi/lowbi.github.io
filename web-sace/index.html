@@ -1,15 +1,134 @@
-{% extends 'base.html' %}
 
-{% block title %}SACE{% endblock %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-{% block content %}
-<section class="header-content">
+    <link rel="icon" href="img/favicon.ico">
+    <title>SACE</title>
+
+    <!-- Typos -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/sticky-footer-navbar.css" type="text/css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+    <!-- Special Scripts Core -->
+    <script src="js/ie8-responsive-file-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class=""><img src="/img/logo.jpg" alt="" style="margin-top: 10px;"></a>
+
+            <div class="button_container" id="toggle">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+            </div>
+            <div class="overlay" id="overlay">
+              <nav class="overlay-menu">
+                <ul>
+                    <li><a href="sace">Què és Sace?</a></li>
+                    <li><a href="serveis">Què fem?</a></li>
+                    <li><a href="com-ens-organitzem">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <nav class="nav-menu pull-right">
+                <ul>
+                    <li><a href="sace">Què és Sace?</a></li>
+                    <li><a href="serveis">Què fem?</a></li>
+                    <li><a href="com-ens-organitzem">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul> <!-- theme-main-nav -->
+            </nav>
+        </div>
+        <!-- .cd-nav -->
+    </header>
+    <main>
+        
+        
+<div class="home-page">
 	<div class="container">
-		<h2>Presentació SACE... </h2>	
+		<h1 class="text-center">Què és SACE?</h1>
+		<h4 class="text-center">Serveis d’Acompanyament a Centres Educatius</h4>
+		<p>SACE som una companyia formada per professionals de l’àmbit de l’educació i l’empresa, els quals tenim passió per l’educació i una amplia experiència en el sector educatiu en diferents àmbits (escola, editorial,  distribució, formació, i empresa).</p>
+		
+		<p>L’eix central de l’activitat que portem a terme a SACE es el centre educatiu, al voltant del qual giren les nostres diferents àrees, oferint serveis d’acompanyament integrals que donen suport i tenen com a objectiu principal fer que els centres educatius, en els quals em establert un acord de col·laboració, siguin referencia en la seva zona.</p>
 	</div>
-</section>
+	<div class="ilustracio-home text-center">
+		<img src="../img/home.svg" alt="">
+		<div class="row acompanyaments text-center">
+			<div class="servei-home servei-left">
+				<a href="sace-comunicacio">
+					<div class="servei-box">
+						<img src="../img/comunicacio-cover.jpg" alt="">
+						<p>Imatge i Comunicació</p>
+					</div>
+				</a>
+			</div>
+			<div class="servei-home servei-right">
+				<a href="sace-gestio">
+					<div class="servei-box">
+						<img src="../img/gestio-cover.jpg" alt="">
+						<p>Gestió del Centre Educatiu</p>
+					</div>
+				</a>
+			</div>
+			<div class="servei-home servei-center">
+				<a href="sace-educacio">
+					<div class="servei-box">
+						<img src="../img/educacio-cover.jpg" alt="">
+						<p>Educació</p>
+					</div>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+	<div class="filosofia-servei">
+		<div class="container">
+			<h3 class="text-center">"El Centre Educatiu es l’eix central de la nostre activitat".</h3>
+		</div>
+	</div>
+</div>
 
-<section class="content">
-</section>
-
-{% endblock %}
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright - Tots els continguts, si no s’indica el contrari, són originals de propietat de SACE. Per fer-ne ús posa't en <a href="contacte">contacte</a>.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+    </script>
+    
+    
+</body>
+</html>
