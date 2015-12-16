@@ -1,36 +1,115 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-{% block title %}SACE - Com ens organitzem?{% endblock %}
+    <link rel="icon" href="img/favicon.ico">
+    <title>SACE - Com ens Organtitzem?</title>
 
-{% block content %}
-<div class="container" style="padding:top:20px">
-	<h1 class="text-center">Com ens organitzem?</h1>
-	<p>A SACE consideren que la nostre estructura organitzativa es modular, ja que volen que aquesta s’adapti a les necessitats dels centres educatius amb els quals es col·labora.</p>
+    <!-- Typos -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/sticky-footer-navbar.css" type="text/css" />
 
-	<h3 class="text-center">“Organització Modular que s’adapta a les necessitats de cada centre educatiu”</h3>
-	
-	<p>Destaquen, dintre de l’organització de SACE, les següents àrees:</p>
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
 
-	<div class="modul">
-		<h5>SACE Educació</h5>
-		<p>Àrea destinada a oferir al centre educatiu tots els serveis d’acompanyament relacionats amb l’educació per mantenir i millorar el nivell de qualitat dins del centre.</p>
-	</div>
-	<div class="modul">
-		<h5>SACE Imatge i Comnicació</h5>
-		<p>Àrea destinada a oferir al centre educatiu una millora respecte al processos de comunicació interns i externs, i potenciar la seva imatge corporativa per ser percebut con un centre educatiu de referencia..</p>
-	</div>
-	<div class="modul">
-		<h5>SACE Gestió del Centre Educatiu</h5>
-		<p>Àrea destinada a oferir al centre educatiu una organització, coordinació i millora de les negociacions amb els seus proveïdors.</p>
-	</div>
-	<div class="modul">
-		<h5>SACE Innovació</h5>
-		<p>Àrea destinada a oferir al centre educatiu serveis que propiciïn  l’evolució en totes les accions que es portin a terme en el centre.</p>
-	</div>
+    <!-- Special Scripts Core -->
+    <script src="js/ie8-responsive-file-warning.js"></script>
 
-	<div class="ilustracio-centre" style="height: 400px">
-		<h5>“El Centre Educatiu es l’eix central de la nostre activitat”</h5>
-	</div>
-</div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class=""><img src="/img/logo.jpg" alt="" style="margin-top: 10px;"></a>
 
-{% endblock %}
+            <div class="button_container" id="toggle">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+            </div>
+            <div class="overlay" id="overlay">
+              <nav class="overlay-menu">
+                <ul>
+                    <li><a href="/">Què és Sace?</a></li>
+                    <li><a href="acompanyaments">Què fem?</a></li>
+                    <li><a href="organitzacio">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <nav class="nav-menu pull-right">
+                <ul>
+                    <li><a href="/">Què és Sace?</a></li>
+                    <li><a href="acompanyaments">Què fem?</a></li>
+                    <li><a href="organitzacio">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul> <!-- theme-main-nav -->
+            </nav>
+        </div>
+        <!-- .cd-nav -->
+    </header>
+    <main>
+		<div class="container" style="padding:top:20px">
+			<h1 class="text-center">Com ens organitzem?</h1>
+			<p>A SACE consideren que la nostre estructura organitzativa es modular, ja que volen que aquesta s’adapti a les necessitats dels centres educatius amb els quals es col·labora.</p>
+
+			<h3 class="text-center">“Organització Modular que s’adapta a les necessitats de cada centre educatiu”</h3>
+			
+			<p>Destaquen, dintre de l’organització de SACE, les següents àrees:</p>
+
+			<div class="modul">
+				<h5>SACE Educació</h5>
+				<p>Àrea destinada a oferir al centre educatiu tots els serveis d’acompanyament relacionats amb l’educació per mantenir i millorar el nivell de qualitat dins del centre.</p>
+			</div>
+			<div class="modul">
+				<h5>SACE Imatge i Comnicació</h5>
+				<p>Àrea destinada a oferir al centre educatiu una millora respecte al processos de comunicació interns i externs, i potenciar la seva imatge corporativa per ser percebut con un centre educatiu de referencia..</p>
+			</div>
+			<div class="modul">
+				<h5>SACE Gestió del Centre Educatiu</h5>
+				<p>Àrea destinada a oferir al centre educatiu una organització, coordinació i millora de les negociacions amb els seus proveïdors.</p>
+			</div>
+			<div class="modul">
+				<h5>SACE Innovació</h5>
+				<p>Àrea destinada a oferir al centre educatiu serveis que propiciïn  l’evolució en totes les accions que es portin a terme en el centre.</p>
+			</div>
+
+			<div class="ilustracio-centre" style="height: 400px">
+				<h5>“El Centre Educatiu es l’eix central de la nostre activitat”</h5>
+			</div>
+		</div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright - Tots els continguts, si no s’indica el contrari, són originals de propietat de SACE. Per fer-ne ús posa't en <a href="contacte">contacte</a>.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+    </script>
+    
+    
+</body>
+</html>

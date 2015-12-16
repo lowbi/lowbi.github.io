@@ -1,7 +1,90 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-{% block title %}Error{% endblock %}
+    <link rel="icon" href="img/favicon.ico">
+    <title>SACE - Formulari Enviat</title>
 
-{% block content %}
-<h1>Error 404 customitzat</h1>
-{% endblock %}
+    <!-- Typos -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/sticky-footer-navbar.css" type="text/css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+    <!-- Special Scripts Core -->
+    <script src="js/ie8-responsive-file-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class=""><img src="/img/logo.jpg" alt="" style="margin-top: 10px;"></a>
+
+            <div class="button_container" id="toggle">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+            </div>
+            <div class="overlay" id="overlay">
+              <nav class="overlay-menu">
+                <ul>
+                    <li><a href="/">Què és Sace?</a></li>
+                    <li><a href="acompanyaments">Què fem?</a></li>
+                    <li><a href="organitzacio">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <nav class="nav-menu pull-right">
+                <ul>
+                    <li><a href="/">Què és Sace?</a></li>
+                    <li><a href="acompanyaments">Què fem?</a></li>
+                    <li><a href="organitzacio">Com ens organitzem?</a></li>
+                    <li><a href="valors">Valors</a></li> 
+                    <li><a href="noticies">Notícies</a></li>     
+                    <li><a href="contacte">Vols Contactar?</a></li>
+                </ul> <!-- theme-main-nav -->
+            </nav>
+        </div>
+        <!-- .cd-nav -->
+    </header>
+    <main>
+		<div class="container" style="padding:top:20px">
+			<h1 class="text-center">Formulari enviat!</h1>
+			<h4>En breu ens posarem en contacte amb tu.</h4>
+		</div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright - Tots els continguts, si no s’indica el contrari, són originals de propietat de SACE. Per fer-ne ús posa't en <a href="contacte">contacte</a>.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+    </script>
+    
+    
+</body>
+</html>
