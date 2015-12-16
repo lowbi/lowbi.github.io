@@ -443,8 +443,34 @@ display: inline-block
 }
 
 
+/*------- Organitzem -------*/
 
+.modul {
+  margin: 30px 0;
+}
+.modul .titol-modul {
+  padding: 30px;
+  text-align: center;
+  text-align: middle;
+  background: #b0c0ca;
+  color: #fff;
+  padding: 50px 40px;
+  float: left;
+  width: 40%;
+  display: inline-block;
+  min-height: 190px;
+}
+.modul .titol-modul h3 {
 
+}
+
+.modul .content-modul {
+  padding: 50px 90px;
+  background: white;
+  display: inline-block;
+  width: 60%;
+  min-height: 190px;
+}
 
 
 
@@ -458,6 +484,7 @@ display: inline-block
 .text-muted {
 	color: #75858C;
   text-align: center;
+  font-size: 12px;
 }
 .btn-sace {
     color: #fff;
@@ -661,8 +688,55 @@ display: inline-block
 }
 
 
+@media screen and (max-width: 480px) {
+  .home-page .ilustracio-home img {
+      width: 100%;
+  }
+  .home-page .ilustracio-home .acompanyaments {
+      width: 100%;
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      margin-left: -50%;
+  }
+  .home-page .ilustracio-home .acompanyaments .servei-home.servei-left {
+      margin-left: 0;
+      margin-top: 0;
+  }
+  .home-page .ilustracio-home .acompanyaments .servei-home.servei-right {
+      margin-right: 0;
+      margin-top: 0;
+  }
+  .home-page .ilustracio-home .acompanyaments .servei-home.servei-center {
+      margin-top: -20px;
+  }
+  .modul {
+    margin: 30px 0;
+  }
+  .modul .titol-modul {
+    padding: 30px;
+    text-align: center;
+    text-align: middle;
+    background: #b0c0ca;
+    color: #fff;
+    padding: 15px 15px;
+    float: none;
+    width: 100%;
+    display: block;
+    min-height: auto;
+  }
+  .modul .titol-modul h3 {
+    font-size: 18px;
+  }
 
-
+  .modul .content-modul {
+    padding: 25px 15px;
+    background: white;
+    display: block;
+    width: 100%;
+    min-height: auto;
+  }
+}
 
 
 
