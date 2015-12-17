@@ -92,7 +92,67 @@ header {
 	border-bottom: 2px solid #2CBFEB;
 }
 
+.visites-acompanyaments {
+  position:absolute;
+  top:30px;
+  right:30px
+}
 
+/*------- Butons Sace -------*/
+.btn {
+  font-weight: 700;
+}
+.btn-default {
+    color: #2CBFEB;
+    background-color: #fff;
+    border-color: #2CBFEB;   
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #2CBFEB;
+    border-color: #2CBFEB;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2CBFEB;
+    border-color: #2CBFEB;
+}
+.btn-primary:hover {
+  background-color: #1B86A7;
+  border-color: #1B86A7; 
+}
+.btn-light {
+    color: #b0c0ca;
+    background-color: #fff;
+    border-color: #b0c0ca;
+}
+.btn-light:hover {
+  background-color: #b0c0ca;
+  border-color: #b0c0ca; 
+  color: #fff;
+}
+
+/*------- Modals Sace -------*/
+#visita_explicativa .modal-header, #visita_explicativa .modal-body {
+  padding: 15px 25px;
+}
+#visita_explicativa .modal-header {
+    min-height: 16.43px;
+    border-bottom: 0;
+    background: #2CBFEB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+#visita_explicativa .modal-body p {
+  padding-bottom: 15px;
+}
+#visita_explicativa .form-horizontal .control-label {
+  font-size: 13px;
+}
+#visita_explicativa .modal-footer {
+    border-top: 0;
+}
 
 
 main {
@@ -195,7 +255,7 @@ main {
     -webkit-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
     box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
-    border: 2px solid #2B2B2B;
+    border: 2px solid #878787;
     padding-bottom: 20px;
 }
 .home-page .ilustracio-home .acompanyaments .servei-home .servei-box:hover {
@@ -243,7 +303,7 @@ main {
     -webkit-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
     box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
-    border: 2px solid #2B2B2B;
+    border: 2px solid #878787;
     padding-bottom: 20px;
 }
 .serveis-page .container-box .servei-box:hover {
@@ -396,6 +456,7 @@ main {
   max-width: 700px;
   margin: 0 auto;
   padding: 40px 0;
+  padding-top: 28px;
 }
 .altres-serveis .container .col-md-4{
 float: none;
@@ -461,21 +522,24 @@ display: inline-block
   min-height: 190px;
 }
 .modul .titol-modul h3 {
-
+  font-size: 20px;
 }
 
 .modul .content-modul {
-  padding: 50px 90px;
+  padding: 50px 60px;
   background: white;
   display: inline-block;
   width: 60%;
   min-height: 190px;
 }
 
-/*------- Organitzem -------*/
+/*------- Contacte -------*/
 .formulari-contacte {
   width: 700px;
   margin:0 auto;
+}
+.formulari-contacte form.form-horizontal .form-group label.control-label span.required{
+  color:#2CBFEB;
 }
 .formulari-contacte .footer-formulari {
     text-align: right;
@@ -600,7 +664,7 @@ display: inline-block
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
 }
@@ -625,7 +689,6 @@ display: inline-block
   position: relative;
   color: #FFF;
   text-decoration: none;
-  overflow: hidden;
   font-family: 'montserratbold';
   font-weight: normal;
 }
@@ -668,6 +731,17 @@ display: inline-block
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .modul .titol-modul {
+    padding: 50px 40px;
+  }
+  .modul .titol-modul h3 {
+    font-size: 18px;
+  }
+  .modul .content-modul {
+    padding: 50px 40px;
+  }
+}
 
 
 @media screen and (max-width: 768px) {
@@ -690,12 +764,21 @@ display: inline-block
     margin-left: -15px;
     margin-top: 20px;
   }
-.home-page .ilustracio-home .acompanyaments .servei-home.servei-center {
+  .home-page .ilustracio-home .acompanyaments .servei-home.servei-center {
       margin-top: -50px;
   }
-.home-page .ilustracio-home .acompanyaments .servei-home.servei-right {
+  .home-page .ilustracio-home .acompanyaments .servei-home.servei-right {
       margin-right: -15px;
       margin-top: 20px;
+  }
+  .modul .titol-modul {
+    padding: 50px 15px;
+  }
+  .modul .titol-modul h3 {
+    font-size: 18px;
+  }
+  .modul .content-modul {
+    padding: 40px 30px;
   }
 }
 
