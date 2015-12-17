@@ -258,6 +258,8 @@ main {
     border: 2px solid #878787;
     padding-bottom: 20px;
 }
+
+
 .home-page .ilustracio-home .acompanyaments .servei-home .servei-box:hover {
     -webkit-box-shadow: 10px 10px 0px 5px #2CBFEB;
     -moz-box-shadow: 10px 10px 0px 5px #2CBFEB;
@@ -284,6 +286,9 @@ main {
   text-decoration: none;
   font-weight: 700;
   color: #2CBFEB;
+}
+.home-page .ilustracio-home .acompanyaments .servei-home .servei-box p {
+    margin: 0;
 }
 
 /*------- Serveis Page -------*/
