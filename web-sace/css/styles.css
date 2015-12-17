@@ -103,33 +103,33 @@ header {
   font-weight: 700;
 }
 .btn-default {
-    color: #2CBFEB;
-    background-color: #fff;
-    border-color: #2CBFEB;   
+    color: #2CBFEB!important;
+    background-color: #fff!important;
+    border-color: #2CBFEB!important;   
 }
 .btn-default:hover {
-    color: #fff;
-    background-color: #2CBFEB;
-    border-color: #2CBFEB;
+    color: #fff!important;
+    background-color: #2CBFEB!important;
+    border-color: #2CBFEB!important;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #2CBFEB;
-    border-color: #2CBFEB;
+    color: #fff!important;
+    background-color: #2CBFEB!important;
+    border-color: #2CBFEB!important;
 }
 .btn-primary:hover {
-  background-color: #1B86A7;
-  border-color: #1B86A7; 
+  background-color: #1B86A7!important;
+  border-color: #1B86A7!important; 
 }
 .btn-light {
-    color: #b0c0ca;
-    background-color: #fff;
-    border-color: #b0c0ca;
+    color: #b0c0ca!important;
+    background-color: #fff!important;
+    border-color: #b0c0ca!important;
 }
 .btn-light:hover {
-  background-color: #b0c0ca;
-  border-color: #b0c0ca; 
-  color: #fff;
+  background-color: #b0c0ca!important;
+  border-color: #b0c0ca!important; 
+  color: #fff!important;
 }
 
 /*------- Modals Sace -------*/
@@ -323,17 +323,41 @@ main {
   filter: none;
   -webkit-filter: none;
 }
-.serveis-page .container-box a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #92A4AB;
-}
+
 .serveis-page .container-box a:hover {
   color: #2CBFEB;
 }
 
 
-
+.serveis-page .container-box .servei {
+  background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    border: 2px solid #878787;
+    margin-bottom: 40px;
+}
+.serveis-page .container-box .servei .servei-avatar {
+  float: left;
+    width: 210px;
+    display: inline-block;
+}
+.serveis-page .container-box .servei .servei-image-cover {
+  margin:0 auto;
+}
+.serveis-page .container-box .servei .servei-content {
+  padding: 20px 10px;
+    text-align: left;
+    width: 480px;
+    display: inline-block;
+}
+.serveis-page .container-box .servei .servei-content h4 {
+  margin-left: -10px;
+}
+.serveis-page .container-box .servei .servei-content ul {
+      margin-left: -35px;
+}
 
 /*------- Servei Content -------*/
 .new-branding-color {
