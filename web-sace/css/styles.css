@@ -258,8 +258,6 @@ main {
     border: 2px solid #878787;
     padding-bottom: 20px;
 }
-
-
 .home-page .ilustracio-home .acompanyaments .servei-home .servei-box:hover {
     -webkit-box-shadow: 10px 10px 0px 5px #2CBFEB;
     -moz-box-shadow: 10px 10px 0px 5px #2CBFEB;
@@ -286,9 +284,6 @@ main {
   text-decoration: none;
   font-weight: 700;
   color: #2CBFEB;
-}
-.home-page .ilustracio-home .acompanyaments .servei-home .servei-box p {
-    margin: 0;
 }
 
 /*------- Serveis Page -------*/
@@ -535,31 +530,39 @@ display: inline-block
 
 /*------- Organitzem -------*/
 
-.modul {
-  margin: 30px 0;
-}
-.modul .titol-modul {
-  padding: 30px;
-  text-align: center;
-  text-align: middle;
-  background: #b0c0ca;
-  color: #fff;
-  padding: 50px 40px;
-  float: left;
-  width: 40%;
-  display: inline-block;
-  min-height: 190px;
-}
-.modul .titol-modul h3 {
-  font-size: 20px;
-}
 
-.modul .content-modul {
-  padding: 50px 60px;
-  background: white;
+.moduls-organitzacio {
+  width:820px;
+  margin: 0 auto;
+  padding-left:15px;
+  margin-bottom: 40px;
+}
+.modul-org {
+  background: #fff;
+  width: 350px;
+  height: 350px;
+  margin: 15px 15px;
+  float: left;
   display: inline-block;
-  width: 60%;
-  min-height: 190px;
+  padding: 25px;
+  -webkit-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 0px 5px rgba(0,0,0,0.15);
+    border: 2px solid #303030;
+}
+.modul-org h4 {
+  color: #2CBFEB;
+  text-align: center;
+  padding-top: 30px;
+}
+.modul-org p {
+  padding-top: 30px;
+}
+.modul-org:nth-child(1), .modul-org:nth-child(4) {
+  background: #2CBFEB;
+}
+.modul-org:nth-child(1) h4, .modul-org:nth-child(4) h4 {
+  color: #fff;
 }
 
 /*------- Contacte -------*/
