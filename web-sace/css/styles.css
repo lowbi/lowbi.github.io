@@ -536,6 +536,7 @@ display: inline-block
   margin: 0 auto;
   padding-left:15px;
   margin-bottom: 40px;
+  position: relative;
 }
 .modul-org {
   background: #fff;
@@ -803,14 +804,24 @@ display: inline-block
       margin-right: -15px;
       margin-top: 20px;
   }
-  .modul .titol-modul {
-    padding: 50px 15px;
+  .moduls-organitzacio {
+    width:750px;
+    margin: 0 auto;
+    padding-left:25px;
+    position: relative;
   }
-  .modul .titol-modul h3 {
-    font-size: 18px;
+  .modul-org {
+  width: 300px;
+  height: 300px;
+  margin: 15px 15px;
+  padding: 15px;
+  margin-bottom: 30px;
   }
-  .modul .content-modul {
-    padding: 40px 30px;
+  .modul-org h4 {
+  padding-top: 15px;
+  }
+  .modul-org p {
+  padding-top: 15px;
   }
 }
 
@@ -837,32 +848,6 @@ display: inline-block
   .home-page .ilustracio-home .acompanyaments .servei-home.servei-center {
       margin-top: -20px;
   }
-  .modul {
-    margin: 30px 0;
-  }
-  .modul .titol-modul {
-    padding: 30px;
-    text-align: center;
-    text-align: middle;
-    background: #b0c0ca;
-    color: #fff;
-    padding: 15px 15px;
-    float: none;
-    width: 100%;
-    display: block;
-    min-height: auto;
-  }
-  .modul .titol-modul h3 {
-    font-size: 18px;
-  }
-
-  .modul .content-modul {
-    padding: 25px 15px;
-    background: white;
-    display: block;
-    width: 100%;
-    min-height: auto;
-  }
   .formulari-contacte {
   width: 100%;
   margin:0 auto;
@@ -885,6 +870,31 @@ display: inline-block
     padding: 12px 20px;
     font-size: 16px;
     float: none!important;
+  }
+  .moduls-organitzacio {
+  width:100%;
+  margin: 0 auto;
+  padding-left:0;
+  }
+  .modul-org {
+  background: #fff;
+  width: 280px;
+  height: 280px;
+  margin: 15px 15px;
+  margin: 0 auto;
+  float: none;
+  display: block;
+  padding: 15px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+  }
+  .modul-org h4 {
+  padding-top: 15px;
+  }
+  .modul-org p {
+  padding-top: 15px;
   }
 }
 
