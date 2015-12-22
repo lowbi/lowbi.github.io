@@ -97,7 +97,6 @@ header {
   top:30px;
   right:30px
 }
-
 /*------- Butons Sace -------*/
 .btn {
   font-weight: 700;
@@ -157,6 +156,13 @@ header {
 
 main {
 	margin-top: 60px;
+  padding-top:20px;
+  padding-bottom:40px;
+}
+.subtitol {
+  color:#2CBFEB;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .header-content {
   background: white;
@@ -288,7 +294,6 @@ main {
 
 /*------- Serveis Page -------*/
 .serveis-page {
-  padding-top: 20px;
 }
 .serveis-page .container {
   max-width: 820px;
@@ -827,6 +832,13 @@ display: inline-block
 
 
 @media screen and (max-width: 480px) {
+  .h1, h1 {
+  font-size: 32px;
+  }
+  main {
+  padding-top:10px;
+  padding-bottom:20px;
+  }
   .home-page .ilustracio-home img {
       width: 100%;
   }
@@ -846,31 +858,49 @@ display: inline-block
       margin-top: 0;
   }
   .home-page .ilustracio-home .acompanyaments .servei-home.servei-center {
-      margin-top: -20px;
+    margin-top: -20px;
   }
-  .formulari-contacte {
-  width: 100%;
-  margin:0 auto;
+
+
+
+
+  .serveis-page .container {
+    max-width: 100%;
   }
-  .form-horizontal .control-label {
-    padding-top: 7px;
-    margin-bottom: 0;
-    text-align: right;
-    font-size: 13px;
+  .serveis-page .container-box {
+    max-width: 80%;
+    margin: 0 auto;
   }
-  .formulari-contacte .footer-formulari {
+  .serveis-page .container-box .servei {
+      -webkit-box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+      -moz-box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+      box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.15);
+  }
+  .serveis-page .container-box .servei .servei-avatar {
+    float: none;
+    width: 100%;
+  }
+  .serveis-page .container-box .servei .servei-image-cover {
+    margin:0 auto;
+  }
+  .serveis-page .container-box .servei .servei-content {
+    padding: 20px 10px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+  }
+  .serveis-page .container-box .servei .servei-content h4 {
+    margin-left: 0;
     text-align: center;
   }
-  .formulari-contacte .footer-formulari span {
-    display: block;
-    font-size: 13px;
+  .serveis-page .container-box .servei .servei-content ul {
+    margin-left: -35px;
   }
-  .formulari-contacte .footer-formulari .btn-sace {
-    width: 90%;
-    padding: 12px 20px;
-    font-size: 16px;
-    float: none!important;
-  }
+
+
+
+
+
   .moduls-organitzacio {
   width:100%;
   margin: 0 auto;
@@ -896,6 +926,32 @@ display: inline-block
   .modul-org p {
   padding-top: 15px;
   }
+
+
+  .formulari-contacte {
+  width: 100%;
+  margin:0 auto;
+  }
+  .form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 13px;
+  }
+  .formulari-contacte .footer-formulari {
+    text-align: center;
+  }
+  .formulari-contacte .footer-formulari span {
+    display: block;
+    font-size: 13px;
+  }
+  .formulari-contacte .footer-formulari .btn-sace {
+    width: 90%;
+    padding: 12px 20px;
+    font-size: 16px;
+    float: none!important;
+  }
+  
 }
 
 
