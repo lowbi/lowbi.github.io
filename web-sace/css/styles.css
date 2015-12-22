@@ -361,7 +361,7 @@ main {
   margin-left: -10px;
 }
 .serveis-page .container-box .servei .servei-content ul {
-      margin-left: -35px;
+      margin-left: -25px;
 }
 
 /*------- Servei Content -------*/
@@ -369,7 +369,7 @@ main {
   color: #68d0ff;
 }
 .contingut-servei {
-  padding: 50px 0;
+  padding: 30px 0;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -924,6 +924,29 @@ display: inline-block
     margin-left: -35px;
   }
 
+  
+
+
+
+  .contingut-servei {
+  padding: 0;
+  margin-top: -10px;
+  }
+  .contingut-servei .container {
+    background: #fff;
+    box-shadow: none;
+    border: none;
+  }
+  .contingut-servei .container h1 {
+    font-size: 32px;
+  }
+  .filosofia-servei .container h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .altres-serveis .container .col-xs-6 {
+    margin-bottom: 30px;
+    }
 
 
 
