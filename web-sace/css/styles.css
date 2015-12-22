@@ -541,10 +541,10 @@ display: inline-block
   margin: 0 auto;
   padding-left:15px;
   margin-bottom: 40px;
-  position: relative;
 }
 .modul-org {
   background: #fff;
+  position: relative;
   width: 350px;
   height: 350px;
   margin: 15px 15px;
@@ -559,16 +559,21 @@ display: inline-block
 .modul-org h4 {
   color: #2CBFEB;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
+  position: relative;
 }
 .modul-org p {
   padding-top: 30px;
 }
-.modul-org:nth-child(1), .modul-org:nth-child(4) {
-  background: #2CBFEB;
+.modul-org .image {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 100px;
+  height: 100px;
 }
-.modul-org:nth-child(1) h4, .modul-org:nth-child(4) h4 {
-  color: #fff;
+.modul-org .image img {
+  width:100%;
 }
 
 /*------- Contacte -------*/
@@ -819,6 +824,15 @@ display: inline-block
   .serveis-page .container-box .servei .servei-content {
     width: 470px;
   }
+  .serveis-page .container-box .servei {
+  background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 6px 6px 0px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 6px 6px 0px 2px rgba(0,0,0,0.15);
+    box-shadow: 6px 6px 0px 2px rgba(0,0,0,0.15);
+    border: 2px solid #878787;
+    margin-bottom: 40px;
+}
 
   .moduls-organitzacio {
     width:750px;
