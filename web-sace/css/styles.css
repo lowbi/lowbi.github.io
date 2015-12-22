@@ -895,19 +895,20 @@ display: inline-block
     margin:0 auto;
   }
   .serveis-page .container-box .servei .servei-content {
-    padding: 20px 10px;
+    padding: 0px 10px 20px 10px;
     text-align: left;
+    margin-top: -20px;
     width: 100%;
     display: inline-block;
   }
   .serveis-page .container-box .servei .servei-content h4 {
     margin-left: 0;
     text-align: center;
+    margin-bottom: 15px;
   }
   .serveis-page .container-box .servei .servei-content ul {
     margin-left: -35px;
   }
-
 
 
 
