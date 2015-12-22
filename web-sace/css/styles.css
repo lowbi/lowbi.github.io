@@ -936,9 +936,11 @@ display: inline-block
     background: #fff;
     box-shadow: none;
     border: none;
+    padding-top: 0;
+}
   }
   .contingut-servei .container h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .filosofia-servei .container h3 {
     font-size: 18px;
@@ -947,7 +949,9 @@ display: inline-block
   .altres-serveis .container .col-xs-6 {
     margin-bottom: 30px;
     }
-
+  .altres-serveis .container .row {
+    margin: 0;
+  }
 
 
   .moduls-organitzacio {
