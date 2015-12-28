@@ -853,6 +853,10 @@ display: inline-block
   .modul-org p {
   padding-top: 15px;
   }
+  .modul-org .image {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 
@@ -937,7 +941,6 @@ display: inline-block
     box-shadow: none;
     border: none;
     padding-top: 0;
-}
   }
   .contingut-servei .container h1 {
     font-size: 28px;
